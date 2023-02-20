@@ -23,7 +23,7 @@ class Program
 
             // TODO: 3. commit: "Alle PlayLists aus DB lesen und die Songs zuweisen"
             List<PlayList> playlists = new List<PlayList>();
-            // HINWEIS: du kannst du category aus der DB mit "Enum.Parse" parsen: https://learn.microsoft.com/en-us/dotnet/api/system.enum.parse?view=net-7.0
+            // HINWEIS: du kannst die category aus der DB mit "Enum.Parse" parsen: https://learn.microsoft.com/en-us/dotnet/api/system.enum.parse?view=net-7.0
 
             MusicPlayer player = new MusicPlayer();
             foreach (Album album in albums.Values)
